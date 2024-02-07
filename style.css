@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+body {
+  overflow-x: hidden;
+}
+
+
+  .homePage {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 1441px;
+    background-color: var(--purple-bg);
+    padding: 68 136px;
+    
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+  }
+
+  nav {
+    border-left: 2px var(--green) solid;
+    display: flex;
+    gap: 36px;
+  }
+
+  nav a {
+    
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+  }
+
+  form input {
+    outline: 0;
+    border: none;
+    background-color: var(--dark-bg);
+    padding: 14px;
+    color: var(--white);
+    width: 230px;
+  }
+
+  form button {
+    width: 70px;
+    background-color: var(--button-bg);
+    border: none;
+    padding: 10px;
+  }
+
+  .contentHome {
+    display: flex;
+    gap: 30px;
+  }
+
+  .hometext h1 {
+    font-family: "Poppins", sans-serif;
+    color: var(--button-bg);
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .hometext p {
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+  }
+
+  .hometext button {
+    display: flex;
+    align-items: center;
+
+    background: none;
+    border: none;
+    color: var(--button-bg);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+
+    padding: 0;
+
+    margin-top: 24px;
+  }
+
+  .homeImage {
+    width: 570px;
+    height: 346px;
+    flex-shrink: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 1441px;
+    padding: 64 136px;
+    gap: 64px;
+  }
+
+  .contentMain {
+    display: flex;
+    gap: 130px;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-family: "Roboto", sans-serif;
+  }
+
+  .post h1 {
+    color: var(--purple-bg);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .post p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .sidePost {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .otherPosts {
+    display: flex;
+    gap: 30px;
+  }
+
+ 
